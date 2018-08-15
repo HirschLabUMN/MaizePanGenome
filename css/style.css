@@ -435,6 +435,8 @@ ul.service-list li i {
   position: absolute;
   z-index: 5;
   -webkit-box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -moz-box-sizing: border-box;
   box-sizing: border-box
 }
@@ -646,7 +648,7 @@ Blog
 }
 
 .blog-img2 img {
-  width: 100%;
+  width: auto;
   opacity: 1;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
@@ -871,6 +873,9 @@ Responsive media queries
     font-size: 33px;
   }
   h3.subbnr-title {
+    font-size: 22px;
+  }
+   h3.subbnr-title {
     font-size: 22px;
   }
   body {
