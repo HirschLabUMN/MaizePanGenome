@@ -474,13 +474,13 @@ ul.service-list li i {
 
 .portfolio-item figure img {
   backface-visibility: hidden;
-  background: transparent;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s
 }
 
 .portfolio-item figure:hover img, figure.hover img {
+  backface-visibility: hidden;
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
   transform: rotateY(180deg)
