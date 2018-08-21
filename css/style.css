@@ -435,8 +435,6 @@ ul.service-list li i {
   position: absolute;
   z-index: 5;
   -webkit-box-sizing: border-box;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
   -moz-box-sizing: border-box;
   box-sizing: border-box
 }
@@ -476,6 +474,7 @@ ul.service-list li i {
 
 .portfolio-item figure img {
   backface-visibility: hidden;
+  background: transparent;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s
