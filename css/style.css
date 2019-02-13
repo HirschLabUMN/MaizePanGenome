@@ -463,6 +463,7 @@ ul.service-list li i {
   padding: 10px 30px;
   background-color: #BE9E21;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   transform: rotateY(-180deg);
@@ -474,6 +475,7 @@ ul.service-list li i {
 
 .portfolio-item figure img {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s
@@ -646,7 +648,7 @@ Blog
 }
 
 .blog-img2 img {
-  width: 100%;
+  width: auto;
   opacity: 1;
   -webkit-transition: all 0.5s linear;
   -moz-transition: all 0.5s linear;
@@ -871,6 +873,9 @@ Responsive media queries
     font-size: 33px;
   }
   h3.subbnr-title {
+    font-size: 22px;
+  }
+   h3.subbnr-title {
     font-size: 22px;
   }
   body {
